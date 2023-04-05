@@ -73,4 +73,17 @@ npm run build
 npm run lint
 ```
 
+<br>
+<hr>
+
+## Package di supporto
+<hr>
+<br>
+
+**[PrimeVue](https://primevue.org/installation/)**
+PrimeVue è un ricco set di componenti dell'interfaccia utente open source per Vue.
+
+```sh
+npm install primevue primeicons
+```
 

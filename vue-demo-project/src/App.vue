@@ -2,7 +2,7 @@
 </script>
 
 <template>
-<div></div>
+<div>Prova microfono</div>
 </template>
 
 <style scoped>

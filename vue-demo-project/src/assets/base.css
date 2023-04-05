@@ -1,0 +1,50 @@
+/*
+In questo file CSS globale inseriamo
+tutte qelle proprietà che caratterizzeranno la maggior parte delle componenti <HTML> della nostra applicazione
+per questo motivo vengono specificate qui per evitare di doverle ripetere in ogni componente
+Ricordati di importare questo file di stile all' interno del [main.js]
+*/
+
+body {
+    min-height: 100vh;
+    margin: 10px 22px; 
+    transition: color 0.5s, background-color 0.5s;
+    line-height: 1.6;
+    font-family: Avenir, Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .first-bg-color { 
+      background: #233142; 
+  }
+      
+  .second-bg-color { 
+      background: #455d7a; 
+  }
+  
+  .third-bg-color { 
+      background: #f95959; 
+  }
+  
+  .fourth-bg-color { 
+      background: #e3e3e3; 
+  }
+  
+  .first-color { 
+      color: #233142; 
+  }
+      
+  .second-color { 
+      color: #455d7a; 
+  }
+  
+  .third-color { 
+      color: #f95959; 
+  }
+  
+  .fourth-color { 
+      color: #e3e3e3; 
+  }
