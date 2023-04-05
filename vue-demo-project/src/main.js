@@ -1,6 +1,9 @@
 /* eslint-disable vue/no-reserved-component-names */
-import { createApp } from 'vue'
+import { createApp } from 'vue/dist/vue.esm-bundler'
 import { createPinia } from 'pinia'
+
+//Import Internationalization personal setup
+import i18n from './i18n'
 
 //Prime vue dependencies
 import PrimeVue from 'primevue/config'
@@ -32,6 +35,7 @@ const app = createApp(App)
 
 app.use(createPinia())
 app.use(router)
+app.use(i18n)
 app.use(PrimeVue, {ripple:true})
 
 app.directive('ripple', Ripple)

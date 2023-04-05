@@ -5,9 +5,13 @@ per questo motivo vengono specificate qui per evitare di doverle ripetere in ogn
 Ricordati di importare questo file di stile all' interno del [main.js]
 */
 
+body,html{
+    height: 100%;
+}
+
 body {
-    min-height: 100vh;
-    margin: 10px 22px; 
+    margin:0;
+    padding: 10px 22px; 
     transition: color 0.5s, background-color 0.5s;
     line-height: 1.6;
     font-family: Avenir, Arial, Helvetica, sans-serif;

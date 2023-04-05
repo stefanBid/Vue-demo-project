@@ -81,9 +81,21 @@ npm run lint
 <br>
 
 **[PrimeVue](https://primevue.org/installation/)**
+
+
 PrimeVue è un ricco set di componenti dell'interfaccia utente open source per Vue.
 
 ```sh
 npm install primevue primeicons
+```
+
+**[I18n](https://vue-i18n.intlify.dev/guide/installation.html)**
+
+
+Vue I18n è il plugin di internazionalizzazione di Vue.js. Integra facilmente alcune funzionalità di localizzazione nella tua applicazione Vue.js.
+
+```sh
+npm install vue-i18n@9
+npm install @intlify/unplugin-vue-i18n
 ```
 
