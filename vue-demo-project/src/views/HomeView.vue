@@ -1,8 +1,8 @@
 <template>
     <div class="container">
         <div class="container-copy">
-            <h1>{{ $t("home.title",{appName:"Demo-App"} ) }}</h1>
-            <h2>{{ $t("home.subTitle") }}</h2>
+            <h1>{{ $t("homePage.title",{appName:"Demo-App"}) }}</h1>
+            <h2>{{ $t("homePage.subTitle") }}</h2>
         </div>
     </div>
 </template>

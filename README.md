@@ -89,13 +89,30 @@ PrimeVue è un ricco set di componenti dell'interfaccia utente open source per V
 npm install primevue primeicons
 ```
 
-**[I18n](https://vue-i18n.intlify.dev/guide/installation.html)**
+**[axios](https://v2.vuejs.org/v2/cookbook/using-axios-to-consume-apis.html?redirect=true)**
 
 
-Vue I18n è il plugin di internazionalizzazione di Vue.js. Integra facilmente alcune funzionalità di localizzazione nella tua applicazione Vue.js.
+Axios è una libreria client HTTP basata su **promise** per browser e applicazioni Node.js, il che significa che può essere utilizzata sia nelle applicazioni JavaScript front-end che nei server Node back-end.
 
 ```sh
-npm install vue-i18n@9
-npm install @intlify/unplugin-vue-i18n
+ npm install axios  
+```
+
+**[VeeValidate](https://vee-validate.logaretm.com/v4/tutorials/dynamic-form-generator/)**
+
+
+VeeValidate offre molti modi per eseguire la convalida dei moduli.
+
+```sh
+npm install vee-validate
+```
+
+**[Yup](https://vee-validate.logaretm.com/v4/guide/components/validation/)**
+
+
+Yup permette di realizzare uno chema di convalida per le form reattive
+
+```sh
+npm install vue-yup-validation
 ```
 

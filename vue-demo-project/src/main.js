@@ -26,6 +26,11 @@ import DataTable from 'primevue/datatable';
 import Column from 'primevue/column';
 import Button from 'primevue/button';
 
+// Componenti di Vee-validate
+import {Form} from 'vee-validate';
+import {Field} from 'vee-validate';
+import { ErrorMessage } from 'vee-validate'
+
 import App from './App.vue'
 import router from './router'
 
@@ -43,6 +48,9 @@ app.directive('ripple', Ripple)
 app.component('DataTable',DataTable)
 app.component('Column', Column)
 app.component('Button', Button)
+app.component('Form', Form)
+app.component('Field', Field)
+app.component('ErrorMessage', ErrorMessage)
 
 
 app.mount('#app')

@@ -12,15 +12,15 @@ export default class ButtonService{
     
     //Bottone Aggiungi
     static addBtn = {
-        header: "Aggiungi",
-        icon: "pi-pi-plus",
+        label: "button.addBtn",
+        icon: "pi pi-plus",
         action: "ADD",
         class: "success"
     }
 
     //Bottone Modifica
     static editBtn = {
-        header: "Modifica",
+        label: "button.editBtn",
         icon: "pi pi-pencil",
         action: "EDIT",
         class: "warning"
@@ -28,7 +28,7 @@ export default class ButtonService{
 
     //Bottone Elimina
     static deleteBtn = {
-        header: "Elimina",
+        label: "button.deleteBtn",
         icon: "pi pi-trash",
         action: "DELETE",
         class: "danger"
