@@ -70,7 +70,7 @@ body {
   }
 
   *::-webkit-scrollbar-thumb {
-    background-color: #8f54a0;
+    background-color: #f95959;
     border-radius: 10px;
     border: 3px solid #ffffff;
   }
