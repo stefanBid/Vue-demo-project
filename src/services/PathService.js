@@ -12,21 +12,21 @@ export default class PathService{
     //Home Path
     static homePth = {
         header: "nav.homePth",
-        destination: "/",
+        destination: "home",
         icon: 'pi pi-home'
     }
 
     //Post Path
     static postPth = {
         header:"nav.postPth",
-        destination: "/posts",
+        destination: "posts",
         icon: "pi pi-hashtag"
     }
 
     //Comment Path
     static commentPth = {
         header: "nav.commentPth",
-        destination: "/comments",
+        destination: "comments",
         icon: "pi pi-comments"
     }
 }

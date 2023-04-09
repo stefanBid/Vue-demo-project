@@ -1,7 +1,7 @@
 <template>
     <header class="second-bg-color">
         <nav>
-            <RouterLink  v-for="link of navigationLinks" :key="link" :to="link.destination"><i :class="link.icon"></i>{{ $t(link.header) }}</RouterLink>
+            <RouterLink  v-for="link of navigationLinks" :key="link" :to="{name:link.destination}"><i :class="link.icon"></i>{{ $t(link.header) }}</RouterLink>
         </nav>
   </header>
 </template>
